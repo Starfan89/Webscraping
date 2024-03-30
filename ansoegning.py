@@ -6,7 +6,7 @@ import json
 class PyUdvikler():
     def __init__(self) -> None:
         self.kaldenavn = 'Steffan Holst Hansen'
-        self.stedord = Stedord('what the fuck')
+        self.stedord = Stedord(' ')
         self.cases = [RecursiveWebScraper('http://www.sik.dk', 2)]
 
 
